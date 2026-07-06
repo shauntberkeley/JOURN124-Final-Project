@@ -28,9 +28,21 @@ To create a detailed line plot to track RPK growth percentage via Datawrapper.de
 **Note:** To clarify 2008, in the formula is not an arbitrary number, but also not a meaningful date. It is simply used to pull accurately from the specific column in the pivot table. With region names occupying column A, the year columns are thus shifrted two over from where they would start. Subtracting 2008 allows for the correct column to be looked up by the `=VLOOKUP`.
 ## Findings and Visualizations
 ![RPK Percentage Growth from 2010-2025 as a bar chart. The Middle East has grown over 115% in Air-Travel demand followed by Asia-Pacific, Africa, Latin America, Europe, and North America in last place.](Sheets2010-2025.png)
-![RPK Growth by Percentage as a Horizontal Bar Chart, but now since 2019. While, the Middle East still has grown the most, Africa has taken over Second Place.](SheetsSince2019.png)
+
+A bar chart representation of growth from 2010 - 2025. Even the closest competitors finished more than 45 percentage points behind the growth rate of the Middle East.
+
 ![A Line Plot. This shows how much of a crash the airline industry took as a result of the COVID-19 Pandemic. With the Airline Industry effectively shrinking as a result of the Pandemic](DataWrapper2010On.png)
+
+All six global regions grew differently throughout the 2010s. However, they all collapsed together once the pandemic hit. In the recovery since, this graph reveals that the Middle East has climbed higher than before the great shutdown and has finished 2025 up over 115% from 2010.
+
 ![The same line-plot but now only showing 2020 - 2025. This zoom in shows the re-building of the airline industry past the global pandemic.](DataWrapperSince2020.png)
+
+The same bar chart from above, but now cropped just to show the recovery years. The gap between the Middle East and other regions become more pronounced the further from the pandemic you go.
+
+![RPK Growth by Percentage as a Horizontal Bar Chart, but now since 2019. While, the Middle East still has grown the most, Africa has taken over Second Place.](SheetsSince2019.png)
+
+Over the the full fifteen years, Africa's total growth (67.1%) is mucch smaller than that of Asia's (95.5%). However, the majority of Africa's growth happened since 2019. Simply put, Asia Pacific grew the most since before the pandemic and has been climbing back slowly ever since. However, Africa has done most of its growing *in the wake of the pandemic*. This is why the two regions trade places when you change the baseline of where you measure percentage points. Quite simple, quite fascinating if you're not used to crunching numbers all day!
+
 ## Limitations of the Data, Next Steps, and Closing Summary
 Most important to note, the Middle Eastern aviation market market has not just recovered from the global pandemic, but has grown further beyond its pre-pandemic size. However, this finding arrives with two caveats. Firstly, RPK does not just reward sheer numbers of passengers, but also the *distance* these passengers travel. It is important to note that the Middle Eastern aviation giants, Emirates, Etihad Airways, Qatar Airways all have a business model centered around long-haul travel connecting in their hub airports of Dubai, Abu-Dhabi, and Doha, respectively. European passengers often fly these airlines with final destinations in East Asia or Oceania (ex: a common Emirates Route would be a European city like Brussels to a location in Australia like Perth with a layover in Dubai). Therefore, a portion of this growth can be attributed to passengers flying longer routes as opposed to sheer passenger count. Additionally, while the dataset is comprehensive,it does not account for Air Traffic from every airline. Furhtermore, it is unclear as to whether Turkish Airlines, the airline with the most countries and destinations served, is classified as a European Airline or a Middle Eastern airline in the data set. With Turkish Airlines' main international hub, Istanbul, lying at the crossroads of multiple geographic regions including Europe, Asia, and the Middle East, it is crucial to better understand how Turkish Airlines is classified in the confines of this dataset. 
 
