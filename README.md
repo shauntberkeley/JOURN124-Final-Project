@@ -16,7 +16,9 @@ Data analysis was conducted on Google Sheets. A link to the Google Sheet used in
 The original .csv file, which is available to be viewed as a protected sheet, only featured a clunky date column titled *year_month* which could not be charted as a timelime. Rather than editing original data, I first duplicated the sheet and addadded two columns: a text column labeled **MONTH - YEAR Text** with `=TEXT(DATE(B2,C2,1),"mmmm yyyy")` and a more primitive number-forward date value with `=DATE(B2,C2,1)`. These were then extended to all rows of the data set. These were mainly used for readability during the initial perusing of the data set and later proved to be rather irrelevant for constructing pivot tables and graphs.
 ### Sheet Overview
 The raw data contains one row per region, per month. This totals 1,176 rows; 196 rows for each of the six regions. The three columns exist contaning numerical data: RPK (Revenue Passenger Kilometers), ASK (Available Seat Kilometers), which are measured in the billions and Load Factor. Without getting too granular, RPK can be seen as a measure of *demand* and ASK a measure fo *supply*. Load Factor is a percentage; it's RPK divided by ASK: the proportion of available seats filled with paying passengers.
-### Why RPK?
-RPK was used as the metric
-### Generating Annual Totals
+### Selecting RPK as the System of Measurement
+RPK, passenger demand, was chosen as the metric over ASK, supply of seats, because it best tells the story of **how many people are flying** as opposed to how many airline seats are available originating from a specific geographic region. It best showcases the movement of people, as opposed to whether airlines are able to increase supply.
+### Working on the Data
 A pivot table was built, with *region* in rows, *year* in columns, and the *SUM of RPK* in values, aggregating all twelve months' worth of data per year into annual figures per region.
+
+However, tracking growth is not something that is possible via a pivot table. For that, another sheet was built. Titled *Pivot Percentage Calculations* this pulls values from the pivot table with the `VLOOKUP` function. `=VLOOKUP($A2, Pivot!$A$2:$S$8,2,FALSE)` Calculating growth from 2010 to 2025 was then just `=(D2-B2)/B2` to calculate RPK growth from 2010 - 2025 and `=(D2-C2)/C2` extended across rows respectively.
