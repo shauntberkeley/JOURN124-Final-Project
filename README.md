@@ -1,7 +1,7 @@
 # JOURN124-Final-Project
 Creating a journalism story with data for the final project. This one covers Airline Passenger traffic by global region since 2010.
 # The Middle East Has Outpaced Everyone In Air Travel for Two Decades and Counting
-## Summary
+## Abstract
 2020 saw air travel come to a near-halt. Within months, every global region lost roughly three-quarters of all commercial air traffic. Five years removed from the pandemic's onset, the universal collapse of the airline industry has produced fundamentally different patterns of recovery and growth compared to the 2010s. This data analysis of fifteen years of commerical air travel passenger metrics reveals that the Middle Eastern commercial aviation market has not only recovered, but grown larger than pre-COVID numbers.
 
 The race for second place proves equally interesting. For almost the entirety of the 2010s, Asia firmly proved to hold the race's silver medal. But since 2019 specifically, Africa has overtaken it. Growth, therefore, continues to be a metric defined by who's still climbing as opposed to who started the race as the biggest or fastest growing region. 
@@ -27,3 +27,5 @@ To create a detailed line plot to track RPK growth percentage via Datawrapper.de
 
 **Note:** To clarify 2008, in the formula is not an arbitrary number, but also not a meaningful date. It is simply used to pull accurately from the specific column in the pivot table. With region names occupying column A, the year columns are thus shifrted two over from where they would start. Subtracting 2008 allows for the correct column to be looked up by the `=VLOOKUP`.
 ## Findings and Visualizations
+![RPK Percentage Growth from 2010-2025 as a bar chart. The Middle East has grown over 115% in Air-Travel demand followed by Asia-Pacific, Africa, Latin America, Europe, and North America in last place.](Sheets2010-2025.png)
+![RPK Growth by Percentage as a Horizontal Bar Chart, but now since 2019. While, the Middle East still has grown the most, Africa has taken over Second Place.](SheetsSince2019.png)
