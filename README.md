@@ -29,3 +29,5 @@ To create a detailed line plot to track RPK growth percentage via Datawrapper.de
 ## Findings and Visualizations
 ![RPK Percentage Growth from 2010-2025 as a bar chart. The Middle East has grown over 115% in Air-Travel demand followed by Asia-Pacific, Africa, Latin America, Europe, and North America in last place.](Sheets2010-2025.png)
 ![RPK Growth by Percentage as a Horizontal Bar Chart, but now since 2019. While, the Middle East still has grown the most, Africa has taken over Second Place.](SheetsSince2019.png)
+![A Line Plot. This shows how much of a crash the airline industry took as a result of the COVID-19 Pandemic. With the Airline Industry effectively shrinking as a result of the Pandemic](DataWrapper2010On.png)
+![The same line-plot but now only showing 2020 - 2025. This zoom in shows the re-building of the airline industry past the global pandemic.](DataWrapperSince2020.png)
