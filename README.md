@@ -11,4 +11,5 @@ The dataset used originates from a larger aggregation of data published on Kaggl
 The dataset used is labeled passenger_traffic.csv; figures provided come from the International Air Transport Association (IATA) Air Passenger Market Analysis Reports and International Civil Aviation Organization (ICAO) traffic statistics. While it can be presumed that this data is entirely accurate as it arrives from governing bodies, it is important to note that the dataset constructed by Nefedov is not a direct copy of the raw statistics, but includes statistical interpolations of data collected annually on a month-to-month basis. This is furthered discussed in the limitations section below.
 ## Data Analysis
 ### Link to Google Sheet
-Data analysis was conducted on Google Sheets. A link to the Google Sheet used in this project can be found [here](https://docs.google.com/spreadsheets/d/1heeWxLyFZ2BzfppqhhXGnJnIucrFeVfttklozONUzyA/edit?usp=sharing)
+Data analysis was conducted on Google Sheets. A link to the Google Sheet used in this project can be found [here](https://docs.google.com/spreadsheets/d/1heeWxLyFZ2BzfppqhhXGnJnIucrFeVfttklozONUzyA/edit?usp=sharing). Additionally, a .xlsx file is also available in the repository
+### Explanation
