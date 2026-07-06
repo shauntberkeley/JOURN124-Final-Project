@@ -21,4 +21,5 @@ RPK, passenger demand, was chosen as the metric over ASK, supply of seats, becau
 ### Working on the Data
 A pivot table was built, with *region* in rows, *year* in columns, and the *SUM of RPK* in values, aggregating all twelve months' worth of data per year into annual figures per region.
 
-However, tracking growth is not something that is possible via a pivot table. For that, another sheet was built. Titled *Pivot Percentage Calculations* this pulls values from the pivot table with the `VLOOKUP` function. `=VLOOKUP($A2, Pivot!$A$2:$S$8,2,FALSE)` Calculating growth from 2010 to 2025 was then just `=(D2-B2)/B2` to calculate RPK growth from 2010 - 2025 and `=(D2-C2)/C2` extended across rows respectively.
+However, tracking growth is not something that is possible via a pivot table. For that, another sheet was built. Titled *Pivot Percentage Calculations* this pulls values from the pivot table with the `VLOOKUP` function. `=VLOOKUP($A2, Pivot!$A$2:$S$8,2,FALSE)` Calculating growth from 2010 to 2025 was then just `=(D2-B2)/B2` to calculate RPK growth from 2010 - 2025 and `=(D2-C2)/C2` extended across rows respectively. Bar charts visualizing this data are posted below.
+### Creating a Line Plot
